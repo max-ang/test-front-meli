@@ -114,7 +114,7 @@ const itemService = {
           amount: element.price,
           decimals: currency.decimal_places
         },
-        picture: element.thumbnail,
+        picture: (!!element.pictures && element.pictures[0]) ? element.pictures[0].url : element.thumbnail,
         condition: element.condition,
         free_shipping: !!element.shipping
           ? element.shipping.free_shipping
