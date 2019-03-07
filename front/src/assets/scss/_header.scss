@@ -1,0 +1,68 @@
+.header {
+  background-color: $yellow;
+  padding: 0.45em 0;
+
+  .header-container {
+
+    .input-group {
+      // position: relative;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: stretch;
+      width: 100%;
+
+      .input-group-append {
+        margin-left: -1px;
+
+        .input-group-text {
+          display: flex;
+          align-items: center;
+          padding: 0.62rem 0.75rem;
+          margin-bottom: 0;
+          text-align: center;
+          white-space: nowrap;
+          background-color: $gray_light;
+          border-radius: 2px;
+          border-top-left-radius: 0;
+          border-bottom-left-radius: 0;
+          border: 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+        }
+      }
+    }
+
+    img {
+      position: absolute;
+    }
+
+    input {
+      color: $black;
+      margin-left: 5em;
+
+      padding: 7px 60px 9px 15px;
+      border-radius: 2px;
+      background-color: #fff;
+      border: 0 rgba(0, 0, 0, 0.2);
+
+      box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2);
+      height: 22px;
+      width: 82%;
+
+      @media screen and (max-width: $break-tablet) {
+        width: 74%;
+      }
+
+      @media screen and (max-width: $break-mobile) {
+        width: 52%;
+      }
+
+      @media screen and (max-width: $break-mobile-sm) {
+        width: 44%;
+      }
+
+      @media screen and (max-width: $break-mobile-xs) {
+        width: 38%;
+      }
+    }
+  }
+}

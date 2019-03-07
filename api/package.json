@@ -1,0 +1,27 @@
+{
+  "name": "test-front-meli",
+  "version": "1.0.0",
+  "description": "Test front Mercado Libre",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "maximiliano angeletti",
+  "license": "ISC",
+  "homepage": "",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "requestify": "^0.2.5"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.1"
+  }
+}
